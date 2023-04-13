@@ -80,14 +80,14 @@ header {
     color: #E5E7EB;
 }
 
-button {
+button.hero-button {
     background-color: #3882F6;
     border-radius: 5px;
     border-color: #3882F6;
-    color: #F9FAF8;
     font-weight: bolder;
     padding: 5px 20px;
     margin-top: 5px;
+    border-style: solid;
 }
 
 /* first main section (img examples) */
@@ -134,3 +134,39 @@ h1.header{
 }
 
 /* call to action section */
+
+.action{
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 7px;
+    padding: 3% 5%;
+}
+
+.box-text{
+    font-size: smaller;
+    color: white;
+}
+
+button.action-button{
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: #3882F6;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.box-text h2{
+    margin: 0px;
+}
+
+div.button{
+    margin-left: 1%;
+}

@@ -1,6 +1,6 @@
 * {
     list-style: none;
-    font-family: "roboto", "sans-serif";
+    font-family: "Roboto", "sans-serif";
     text-decoration: none;
     color: inherit;
 }
@@ -90,6 +90,8 @@ button {
     margin-top: 5px;
 }
 
+/* first main section (img examples) */
+
 h1.header{
     display: flex;
     justify-content: center;
@@ -98,6 +100,7 @@ h1.header{
 .images{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 25px;
     margin: 35px;
 }
@@ -112,3 +115,22 @@ h1.header{
     border: solid #3882F6;
     border-radius: 10px;
 }
+
+/* quote section */
+
+.quote{
+    padding: 5% 30%;
+    flex-wrap: wrap;
+    background-color: #E5E7EB;
+    font: #1F2937;
+    font-style: italic;
+}
+
+.quote .source{
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* call to action section */

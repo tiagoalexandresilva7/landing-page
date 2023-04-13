@@ -170,3 +170,12 @@ button.action-button{
 div.button{
     margin-left: 1%;
 }
+
+footer{
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+}
